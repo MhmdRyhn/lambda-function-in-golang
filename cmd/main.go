@@ -9,7 +9,6 @@ import (
 
 
 type LambdaEvent struct {
-	Source string `json:"source"`
 	Name string `json:"name"`
 	Age int `json:"age"`
 }
@@ -29,5 +28,4 @@ func lambdaHandler(event LambdaEvent) (LambdaResponse, error) {
 
 func main ()  {
 	lambda.Start(lambdaHandler)
-	// fmt.Println("running")
 }
