@@ -6,7 +6,7 @@ This repository contains the following:
 
 
 ## Deploying The Lambda Function
-- At first allow the **build** acript the executable permission.
+- At first allow the **build** script the executable permission.
 ```shell script
 sudo chmod +x scripts/build.sh
 ```

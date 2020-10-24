@@ -1,0 +1,34 @@
+{
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "normal",
+    "editor.renderWhitespace": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.renderIndentGuides": true,
+    "editor.minimap.enabled": true,
+    
+    "go.buildOnSave": false,
+    "go.lintOnSave": true,
+    "go.vetOnSave": false,
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintTool": "golint",
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.testOnSave": false,
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatOnSave": true, 
+    "go.formatTool": "goreturns",
+    "go.formatFlags": [],
+    "go.goroot": "",
+    "go.gopath": "~/go",
+    "go.inferGopath": false,
+    "go.gocodeAutoBuild": true,
+    "go.testFlags": ["-v"],
+    "go.languageServerExperimentalFeatures": {
+        "format": false,
+        "autoComplete": false
+    }
+}
