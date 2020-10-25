@@ -5,6 +5,13 @@ This repository contains the following:
 - Terraform code (a.k.a. IaC) to deploy the Lambda function along with resources in AWS.
 
 
+## Run Unit Test
+To check if the unit tests pass ot not, run
+```shell script
+go test -v -run '' ./...
+```
+
+
 ## Deploying The Lambda Function
 - At first allow the **build** script the executable permission.
 ```shell script

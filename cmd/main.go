@@ -19,7 +19,7 @@ type LambdaResponse struct {
 }
 
 
-func lambdaHandler(event LambdaEvent) (LambdaResponse, error) {
+func LambdaHandler(event LambdaEvent) (LambdaResponse, error) {
 	return LambdaResponse {
 		Message: fmt.Sprintf("%s is %d years old.", event.Name, event.Age),
 	}, nil
@@ -27,5 +27,5 @@ func lambdaHandler(event LambdaEvent) (LambdaResponse, error) {
 
 
 func main ()  {
-	lambda.Start(lambdaHandler)
+	lambda.Start(LambdaHandler)
 }
