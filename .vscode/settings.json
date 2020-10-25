@@ -4,9 +4,10 @@
     "editor.fontSize": 14,
     "editor.fontWeight": "normal",
     "editor.renderWhitespace": true,
-    "editor.scrollBeyondLastLine": false,
+    "editor.scrollBeyondLastLine": true,
     "editor.renderIndentGuides": true,
     "editor.minimap.enabled": true,
+    "editor.action.goToTypeDefinition": true,
     
     "go.buildOnSave": false,
     "go.lintOnSave": true,

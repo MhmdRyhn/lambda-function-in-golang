@@ -10,10 +10,9 @@ rm -rf "$BASE_DIR/.build"
 mkdir "$BASE_DIR/.build"
 
 GOOS=linux go build -o $BUILD_DIR/main cmd/main.go
-# zip function.zip "$BUILD_DIR/main"
 
 cd $BASE_DIR/deploy/terraform
 terraform init
-terraform plan --var-file input.tfvars --out plan.tfplan
-terraform apply plan.tfplan
+terraform plan --var-file input.tfvars --out tfplan
+terraform apply tfplan
 cd $BASE_DIR
