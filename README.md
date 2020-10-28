@@ -31,4 +31,4 @@ To check the lambda function use the following JSON as the function event:
     "age": 25
 }
 ```
-This will produce the output as: **Talha is 25 years old.**
+This will produce the output as: **{ "message": "Talha is 25 years old." }**

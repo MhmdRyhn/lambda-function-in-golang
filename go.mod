@@ -1,4 +1,4 @@
-module github.com/mhmdryhn/go-lambda
+module github.com/mhmdryhn/lambda-function-in-golang
 
 go 1.15
 
